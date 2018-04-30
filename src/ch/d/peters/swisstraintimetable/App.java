@@ -1,6 +1,9 @@
 package ch.d.peters.swisstraintimetable;
 
 import ch.d.peters.swisstraintimetable.config.Constants;
+import ch.d.peters.swisstraintimetable.factory.DepartureFactory;
+import ch.d.peters.swisstraintimetable.model.Departure;
+import ch.d.peters.swisstraintimetable.storage.CsvHandler;
 
 import java.text.ParseException;
 import java.util.*;

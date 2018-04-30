@@ -1,4 +1,4 @@
-package ch.d.peters.swisstraintimetable;
+package ch.d.peters.swisstraintimetable.model;
 
 import java.util.Date;
 

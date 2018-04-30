@@ -1,4 +1,4 @@
-package ch.d.peters.swisstraintimetable;
+package ch.d.peters.swisstraintimetable.storage;
 
 import ch.d.peters.swisstraintimetable.interfaces.IAbstractFactory;
 import ch.d.peters.swisstraintimetable.interfaces.IDataHandler;
