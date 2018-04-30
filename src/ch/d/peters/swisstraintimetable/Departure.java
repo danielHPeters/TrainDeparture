@@ -17,11 +17,11 @@ public class Departure implements Comparable<Departure> {
    * Default constructor.
    * Initializes all object attributes
    *
-   * @param trainNo       initial train number
-   * @param time initial departure time
-   * @param destination   initial destination
-   * @param via           inital via
-   * @param platform      initial platform
+   * @param trainNo     initial train number
+   * @param time        initial departure time
+   * @param destination initial destination
+   * @param via         inital via
+   * @param platform    initial platform
    */
   public Departure(String trainNo, Date time, String destination, String via, String platform) {
     this.trainNo = trainNo;
@@ -79,27 +79,6 @@ public class Departure implements Comparable<Departure> {
         + "Via: " + via + "\n"
         + "Platform: " + platform + "\n";
     System.out.println(departure);
-  }
-
-  /**
-   * Checks if the specified key is in the value of an attribute
-   *
-   * @param attribute the attribute value
-   * @param key       user specified key
-   * @return boolean which tells wether the attribute value contains the key
-   */
-  private boolean has(String attribute, String key) {
-    return attribute.toLowerCase().contains(key.toLowerCase());
-  }
-
-  /**
-   * Check if this object has the specified platform
-   *
-   * @param platform user specified platform
-   * @return whether the Departure object has the specified platorm
-   */
-  public boolean hasPlatform(String platform) {
-    return has(this.platform, platform);
   }
 
   /**
